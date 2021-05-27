@@ -1,0 +1,31 @@
+body {
+    background-color: #dddddd;
+}
+.seccion {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+}
+.seccion h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.footer a{
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
